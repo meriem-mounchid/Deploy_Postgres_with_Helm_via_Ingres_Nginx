@@ -1,4 +1,4 @@
-# Deploy_via_Ingres_Nginx
+# Deploy_PostgresSQL_And_Enable_Ingres_Nginx
 
 
 Add Helm repository by Bitnami:
