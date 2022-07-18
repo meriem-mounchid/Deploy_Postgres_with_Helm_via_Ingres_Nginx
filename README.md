@@ -101,5 +101,20 @@ Validate that NGINX is Running: `kubectl get pods -n ingress-nginx`
 
 <img width="660" alt="Screen Shot 2022-06-13 at 12 09 08 PM" src="https://user-images.githubusercontent.com/43518207/173341308-c0b5fc29-1fa6-4f65-abb2-70caf9ef0125.png">
 
+Go to and Change it: `sudo vim /etc/hosts`
+EX: 192.168.59.154 test.k8s.com
+IP: `minikube ip`
+
+Then run on your browser: http://test.k8s.com
+![Screen_Shot_2022-07-18_at_12 07 40](https://user-images.githubusercontent.com/43518207/179499113-1c7dd2ec-1fc7-4920-89d1-12c4d5586f9a.png)
+
+How To Connect:
+```
+Systeme: PostgresSQL
+Server: postgresql-dev
+User: app1
+Password: AppPassword
+DB: app_db
+```
 
 
